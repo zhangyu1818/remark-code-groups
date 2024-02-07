@@ -1,0 +1,30 @@
+{
+  "name": "remark-code-groups",
+  "version": "0.0.0-beta.2",
+  "description": "group multiple code blocks",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "remark",
+    "code groups",
+    "code blocks"
+  ],
+  "author": "zhangyu1818 <hey@zhangyu.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "unified": "^11.0.4"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "dependencies": {
+    "nanoid": "^5.0.5",
+    "unist-util-visit": "^5.0.0"
+  }
+}
